@@ -1,0 +1,138 @@
+<html>
+<head>
+  <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Cart</title>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+</head>
+
+<body>
+
+            <nav class="navbar navbar-expand-lg navbar-dark bg-danger">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="./index.html">chefAI</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link" aria-current="page" href="./Menu.html">Menu</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link light" href="./Deals.html">Deals</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" href="./cart.html">Cart</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="./signup.html">Register</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="./signin.html">Login</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="./reservation.html">Reservation Form</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+         <marquee style = "color:white" class="bg-dark">Sign Up To Get Amazing Offers</marquee>
+<!-- DEALS section starts  -->
+
+</div>
+
+
+<right>
+<div > 
+  <div style="text-align: center;"></div>
+  <div style="background-color:darkkgray;width:750px;" >
+    <div class="card-header">CART</div>
+    
+    <div data-ng-app="" data-ng-init="quantity1 = 0 ; price1 =170  ; quantity2 = 0 ; price2=450 ; quantity3 = 0 ; price3 =200; quantity4 = 0 ; price4 = 1250" class="card-body">
+     <table  class="table" > 
+       <tr>
+       <th >Food</th><th>Prices</th><th>Quantity</th>
+     </tr>
+     <tr><td id="bk">Wraps</td> <td id="bk"><h5>170<value="fixed" ng-model="price1"></td> <td id="bk"><input type="number"  ng-model="quantity1" min="0"></td></tr>
+     <tr><td id="bk">Burger</td> <td id="bk"><h5>450<value="fixed" ng-model="price2"></td><td id="bk"><input type="number"  ng-model="quantity2" min="0"></td></tr>
+     <tr><td id="bk">Fries</td> <td id="bk"><h5>200<value="fixed"  ng-model="price3"></td><td id="bk"><input type="number"  ng-model="quantity3" min="0"></td></tr>
+     <tr><td id="bk">Steak</td> <td id="bk"><h5>1250 <value="price4"  ng-model="price4"></td><td id="bk"> <input type="number"  ng-model="quantity4" min="0"></h2></td></tr>
+
+    </table>
+    <div class="card-footer">
+      <table class="table">
+        <tr>
+          <td>
+            Total Amount
+          </td>
+          <td>
+            {{(quantity1 * price1)+(quantity2 * price2)+(quantity3 * price3)+(quantity4 * price4)}}
+          </td>
+        </tr>
+        <tr>
+          <td>
+            GST (17.5%)
+          </td>
+          <td>
+            {{((quantity1 * price1)+(quantity2 * price2)+(quantity3 * price3)+(quantity4 * price4)) * 1.75}}
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Grand Total
+          </td>
+          <td>
+            {{(quantity1 * price1)+(quantity2 * price2)+(quantity3 * price3)+(quantity4 * price4) + ((quantity1 * price1)+(quantity2 * price2)+(quantity3 * price3)+(quantity4 * price4)) * 1.75}}
+          </td>
+        </tr>
+
+      </table>
+
+      <a href="/Users/AbdulRafay/Desktop/chefAI/paymentmethod.html"><button class="btn btn-danger">Payment</button></a>
+
+    </div>
+    </div>
+  </div>
+
+</div>  
+</right> 
+
+
+<!-- FOOTER -->
+
+  <div class="bg-danger">
+  <footer class="py-3">
+    <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+                <li class="nav-item">
+                  <a class="nav-link" aria-current="page" href="./Menu.html" style="color: white">Menu</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link light" href="./Deals.html" style="color: white">Deals</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" href="./cart.html" style="color: white">Cart</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="./signup.html" style="color: white">Register</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="./signin.html" style="color: white">Login</a>
+                </li>
+    </ul>
+    <p class="text-center text-muted" style="color: white;">© chefAI</p>
+  </footer>
+</div>  
+
+
+
+
+
+    
+</body>
+</html></html>
