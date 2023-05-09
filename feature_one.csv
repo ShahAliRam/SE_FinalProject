@@ -1,0 +1,21 @@
+Employee_Ssn,Employee_Name,Employee_Email,Employee_Phone#,Employee_Salary,Shift_Time,Bonus,Eligible_Promotion
+10823,Charlotte Davis,charlotte.smith@yahoo.com,32175176,19557,monday_morning,1,0
+10847,Benjamin Anderson,benjamin.smith@aol.com,32177606,40259,monday_evening,1,1
+10175,Alicia Smith,james.davis@outlook.com,32190561,30369,tuesday_morning,1,0
+10210,William Brown,sophia.brown@hotmail.com,32191622,43208,tuesday_evening,0,0
+10621,Sophia Jackson,emily.miller@outlook.com,32165640,21999,wednesday_morning,0,1
+10266,Sophia Jackson,isabella.thomas@gmail.com,32164732,43221,wednesday_evening,0,0
+10458,James Smith,james.wilson@icloud.com,32162596,16937,thursday_morning,0,1
+10962,Charlotte Johnson,benjamin.johnson@protonmail.com,32174712,20570,thursday_evening,1,0
+10050,Emily Thomas,james.jackson@gmail.com,32182252,42238,friday_morning,0,1
+10263,Oliver Wilson,ethan.davis@icloud.com,32162991,44813,friday_evening,1,0
+10595,James Thomas,oliver.miller@protonmail.com,32170151,41761,tuesday_morning,0,0
+10726,James Taylor,james.davis@icloud.com,32198184,42368,saturday_evening,1,0
+10256,Alicia Miller,sophia.miller@outlook.com,32173255,33142,sunday_morning,0,1
+10577,Alicia Brown,william.brown@gmail.com,32169908,35769,sunday_evening,1,0
+10798,Oliver Miller,william.taylor@gmail.com,32190560,34143,sunday_evening,1,0
+10945,Ethan Smith,oliver.miller@yahoo.com,32190192,28271,sunday_evening,0,1
+10773,Isabella Johnson,charlotte.johnson@yahoo.com,32161972,34774,sunday_morning,0,0
+10156,Oliver Brown,oliver.johnson@outlook.com,32166770,37115, monday_evening,0,0
+10662,Sophia Brown,emily.smith@icloud.com,32180190,38629,tuesday_morning,1,1
+10091,William Davis,benjamin.anderson@hotmail.com,32189741,33344,monday_morning,0,1
